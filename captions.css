@@ -1,0 +1,27 @@
+#caption-fry {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: fira code;
+    transition: 0.3s;
+    transition: transform 0.2s;
+}
+
+#caption-fry:hover {
+    transform: scale(1.001);
+    color: darkblue;
+}
+
+#caption-note {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: fira code;
+    transition: 0.3s;
+    transition: transform 0.2s;
+    background-position: right;
+
+}
+
+#caption-note:hover {
+    transform: scale(1.001);
+    color: darkblue;
+}

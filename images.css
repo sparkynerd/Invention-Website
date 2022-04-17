@@ -1,0 +1,97 @@
+#puzzle {
+    height: 600px;
+    width: 600px;
+    border: none;
+    float: right;
+    border-radius: 70px;
+    transition: 0.3s;
+    transition: transform 0.3s;
+    margin: 30px;
+}
+
+#puzzle:hover {
+    transform: scale(1.08);
+}
+
+#post-it-note {
+    height: 400px;
+    width: 400px;
+    border-bottom: 4px solid black;
+    float:left;
+    border-radius: 0px;
+    margin: 20px;
+    transition: 0.3s;
+    transition: transform 0.2s;
+}
+
+#post-it-note:hover {
+    transform: scale(1.08);
+    margin: 20px 20px 20px 20px;
+}
+
+
+/* 
+
+    NUGGIES!!!!!!!!!!!!
+
+*/
+
+
+#nuggies-group {
+    justify-content: space-around;
+    display: flex;
+    
+} 
+
+#text {
+    font-family: fira code;
+    font-weight: bold;
+    font-size: large;
+}
+
+#suggest {
+    text-align: center;
+    margin: 14px 14px 14px 14px;
+    font-family: helvetica;
+    size: 100px;
+    transition: transform 0.2s;
+    transition: 0.2s;
+}
+
+#suggest:hover {
+    transform: scale(1.01);
+    color: darkblue;
+    
+}
+
+#fry {
+    transition: transform 0.2s;
+    transition: 0.3s;
+    height: 400px;
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+#fry:hover {
+    transform: scale(1.03);
+}
+
+
+.nuggies {
+    background: url("nuggies.png");
+    height: 4500px; /* 500 */
+    width: 6000px; /* 700 */
+    align-items: center;
+    transition: 0.3s;
+    transition: transform 0.2s;
+    display: flex;
+}
+
+
+
+.nuggies:hover {
+    background: url("sus-nuggies.png") ;
+    transition: scale(1.1);
+    align-items: center;
+}

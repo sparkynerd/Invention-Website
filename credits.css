@@ -1,0 +1,45 @@
+/* Date and Publish Info */
+
+#info {
+    transition: transform 0.3s;
+    transition: 0.3s;
+    text-align:center;
+    font-size: 20px;
+    font-family: fira code;
+    border:none;
+    margin: 10px;
+}
+
+#info:hover {
+    transform: scale(1.1);
+}
+
+#date{
+    transition: transform .2s;
+    transition: 0.3s;
+    color: darkred;
+    margin: 10px;
+}
+
+#date:hover{
+    transition: scale(1.1);
+    color:firebrick;
+    transform: scale(1.1);
+}
+
+#publisher{
+    text-align:right;
+    color:darkred;
+    transition: 0.3s;
+    transition: transform .2s;
+    margin: 10px;
+}
+
+#publisher:hover{
+    transition: scale(1.1);
+    color:firebrick;
+    transform: scale(1.1);
+}
+
+
+

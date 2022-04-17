@@ -1,0 +1,65 @@
+/* Writing of the Sections */
+
+.section1  {   /* RIGHT */
+    font-size: 23px;
+    font-family: futura; 
+    font-weight: bold;
+    color: darkslategray;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    margin: 20px;
+    text-align: right
+}
+
+/* .section2 {   
+    font-size: 23px;
+    font-family: futura; 
+    font-weight: bold;
+    color: darkslategray;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    text-align: right 100px;
+    display: flex;
+    margin: 20px; 
+} */
+
+.section2 {
+    font-size: 23px;
+    font-family: futura;
+    font-weight: bold;
+    color: darkslategray;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    margin: 20px;
+    text-align: left;
+}
+
+.section3 {   /* RIGHT */
+    font-size: 23px;
+    font-family: futura; 
+    font-weight: bold;
+    color: darkslategray;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    margin: 20px;
+    text-align: right 
+}
+
+#caps {
+    font-weight: bold;
+    font-size: 150px;
+}
+.section-title {
+    font-family: fira code;
+    font-size: 50px;
+    font-weight: bold;
+    transition: transform 0.2s;
+    transition: 0.3s;
+}
+
+.section-title:hover {
+    transform: scale(1.1);
+    color: darkblue;
+}
+
+

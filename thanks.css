@@ -1,0 +1,19 @@
+
+#thank-you {
+    color: rgb(158, 158, 158);
+    font-family: fira code;
+    border: 2px solid rgb(158,158,158);
+    text-align: center;
+    font-weight: bold;
+    transition: 0.3s;
+    transition: 0.3s;
+    font-size: 125px;
+}
+
+#thank-you:hover {
+    transition: scale(1.05);
+    font-weight: bolder;
+    color: black;
+    border: 3px solid black;
+}  
+

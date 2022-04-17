@@ -1,0 +1,28 @@
+#break {
+    background-color: darkslategray;
+    padding: 10px;
+    border:none;
+    transition: transform 0.2s;
+    transition: 0.3s;
+}
+
+#break:hover {
+    background-color: black;
+    transform: scale(1.007)
+}
+
+
+
+.break-title {
+    background-color: skyblue;
+    padding: 10px;
+    border:none;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    margin: 30px;
+}
+
+.break-title:hover {
+    background-color: cornflowerblue;
+    transform: scale(1.007)
+}

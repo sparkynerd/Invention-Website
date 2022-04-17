@@ -1,0 +1,69 @@
+.nav-button {
+    background-color: #bac4c8;
+    float: center;
+    border-color: black;
+    padding: 10px 10px 20px 20px;
+    transition: 0.3s;
+    transition: transform 0.2s;
+    margin: 10px;
+    font-family: game of squids;
+}
+
+/* .nav-button:hover {
+    transform: scale(1.2);
+    background-color: lightblue;
+} */
+
+.nav-button .nav-button-text:hover {
+    color: #33d8ff;
+}
+
+.nav-button-text {
+    color: darkcyan;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    text-align: center;
+    float: center;
+}
+
+
+.nav-button-text:hover {
+    padding: 5px 5px 5px 5px;
+    transform: scale(1.2);
+    color: lightgray;
+}
+
+a {
+    color: lightblue;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    transition: transform 0.2s;
+    transition: 0.3s;
+    color: darkslategray;
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    color: lightgray;
+    background-color: #33d8ff;
+}
+
+a:active {
+    text-decoration: none
+    color: 
+}
+
+a:visited {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+
+
